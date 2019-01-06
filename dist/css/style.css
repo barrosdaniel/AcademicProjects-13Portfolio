@@ -22,20 +22,22 @@ p {
   height: 100%;
 }
 
+#main-header .portrait {
+  background-image: url(../img/person1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #main-header .bg-black {
   background-color: var(--background-color-black);
 }
 
 #main-header .port-item {
   width: 30%;
-  cursor: pointer;
-  opacity: 0.8;
 }
 
-@media screen and (min-width: 1199px) {
-
-  #main-header .port-item {
-    padding: 3em !important;
-  }
-
+#main-header .port-item:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
