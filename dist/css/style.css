@@ -35,6 +35,7 @@ p {
 
 #main-header .port-item {
   width: 30%;
+  transition: 0.3s;
 }
 
 #main-header .port-item:hover {
