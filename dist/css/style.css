@@ -42,3 +42,12 @@ p {
   cursor: pointer;
   opacity: 0.8;
 }
+
+
+
+/* Contact
+====================================================================== */
+.contact__textarea--large,
+.contact__textarea--large span {
+  height: 170px !important;
+}
