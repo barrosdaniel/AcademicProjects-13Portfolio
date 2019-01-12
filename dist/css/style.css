@@ -1,3 +1,13 @@
+/* Variables
+====================================================================== */
+:root {
+  --background-color-black: #111;
+  --highlight-color-light: #64b5f6;
+
+}
+
+
+
 /* Resets
 ====================================================================== */
 *,
@@ -7,15 +17,25 @@ p {
   box-sizing: border-box;
 }
 
-
-
-/* Variables
-====================================================================== */
-:root {
-  --background-color-black: #111;
+.bg-primary {
+  background-color: #0d47a1 !important;
 }
 
-/* Main Header */
+.bg-success {
+  background-color: #00838f !important;
+}
+
+.bg-warning {
+  background-color: #1b5e20 !important;
+}
+
+.bg-danger,
+.btn-danger {
+  background-color: #b71c1c !important;
+}
+
+/* Main Header
+====================================================================== */
 #main-header img {
   display: block;
   width: 100%;
@@ -27,6 +47,15 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#main-header a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#main-header a:hover {
+  color: var(--highlight-color-light) !important;
 }
 
 #main-header .bg-black {
@@ -50,4 +79,12 @@ p {
 .contact__textarea--large,
 .contact__textarea--large span {
   height: 170px !important;
+}
+
+.btn-danger {
+  transition: 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: #d32f2f !important;
 }

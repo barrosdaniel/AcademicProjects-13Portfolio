@@ -1,0 +1,23 @@
+{
+  "name": "AcademicProjects-13Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrosdaniel/AcademicProjects-13Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barrosdaniel/AcademicProjects-13Portfolio/issues"
+  },
+  "homepage": "https://barrosdaniel.github.io/AcademicProjects-13Portfolio",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
