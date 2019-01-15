@@ -96,8 +96,14 @@ p {
   font-size: 0.9rem;
 }
 
+.project__card ul {
+  list-style: none;
+}
+
 .project-card__technology-description {
   display: block;
+  margin-left: 1.2rem;
+  font-size: 0.9rem;
 }
 
 
