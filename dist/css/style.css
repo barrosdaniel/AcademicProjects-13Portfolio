@@ -3,10 +3,8 @@
 :root {
   --background-color-black: #111;
   --highlight-color-light: #64b5f6;
-
+  --text-color-primary: #212529;
 }
-
-
 
 /* Resets
 ====================================================================== */
@@ -72,8 +70,6 @@ p {
   opacity: 0.8;
 }
 
-
-
 /* Skills
 ====================================================================== */
 #skills .card-header h3 {
@@ -84,12 +80,19 @@ p {
   min-height: 250px;
 }
 
-
-
 /* Projects
 ====================================================================== */
 .project__card .card-title {
   margin-bottom: 0;
+}
+
+a.project-card__link {
+  color: var(--text-color-primary) !important;
+  transition: 0.3s;
+}
+
+a.project-card__link:hover {
+  color: var(--highlight-color-light) !important;
 }
 
 .project__card .card-header p {
@@ -105,8 +108,6 @@ p {
   margin-left: 1.2rem;
   font-size: 0.9rem;
 }
-
-
 
 /* Contact
 ====================================================================== */
