@@ -86,6 +86,22 @@ p {
 
 
 
+/* Projects
+====================================================================== */
+.project__card .card-title {
+  margin-bottom: 0;
+}
+
+.project__card .card-header p {
+  font-size: 0.9rem;
+}
+
+.project-card__technology-description {
+  display: block;
+}
+
+
+
 /* Contact
 ====================================================================== */
 .contact__textarea--large,
