@@ -3,6 +3,9 @@
 :root {
   --background-color-black: #111;
   --highlight-color-light: #64b5f6;
+  --highlight-color-blue: #0d47a1;
+  --highlight-color-blue-light: #64b5f6;
+  --highlight-color-cyan: #00838f;
   --text-color-primary: #212529;
 }
 
@@ -16,11 +19,11 @@ p {
 }
 
 .bg-primary {
-  background-color: #0d47a1 !important;
+  background-color: var(--highlight-color-blue) !important;
 }
 
 .bg-success {
-  background-color: #00838f !important;
+  background-color: var(--highlight-color-cyan) !important;
 }
 
 .bg-warning {
@@ -53,7 +56,7 @@ p {
 }
 
 #main-header a:hover {
-  color: var(--highlight-color-light) !important;
+  color: var(--highlight-color-blue-light) !important;
 }
 
 #main-header .bg-black {
@@ -92,7 +95,7 @@ a.project-card__link {
 }
 
 a.project-card__link:hover {
-  color: var(--highlight-color-light) !important;
+  color: var(--highlight-color-cyan) !important;
 }
 
 .project__card .card-header p {
