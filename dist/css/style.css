@@ -37,6 +37,10 @@ p {
 
 /* Main Header
 ====================================================================== */
+.container {
+  padding: 0;
+}
+
 #main-header img {
   display: block;
   width: 100%;

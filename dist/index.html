@@ -394,12 +394,10 @@
     ====================================================================== -->
   <footer id="main-footer" class="">
     <div class="container">
-      <div class="row">
-        <div class="col mx-auto p-3 bg-dark text-white text-center">
-          <a href="#" class="btn btn-outline-light mb-3"><i class="fas fa-cloud"></i>&nbsp;Download
-            Resume</a>
-          <p>&copy; Daniel Barros and contributors <span id="year"></span>.</p>
-        </div>
+      <div class="col mx-auto p-3 bg-dark text-white text-center">
+        <a href="#" class="btn btn-outline-light mb-3"><i class="fas fa-cloud"></i>&nbsp;Download
+          Resume</a>
+        <p>&copy; Daniel Barros and contributors <span id="year"></span>.</p>
       </div>
     </div>
   </footer>
@@ -423,12 +421,6 @@
     $('.port-item').click(function () {
       $('.collapse').collapse('hide');
     });
-
-    //Initialise Ekko Lightbox
-    $(document).on('click', '[data-toggle="lightbox"]', function (e) {
-      e.preventDefault();
-      $(this).ekkoLightbox();
-    })
   </script>
 </body>
 
